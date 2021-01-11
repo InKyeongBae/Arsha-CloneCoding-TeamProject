@@ -1,0 +1,145 @@
+.footer {
+  /* padding: 60px 10%; */
+  background-color: rgb(243, 245, 250);
+}
+.join {
+  padding: 60px 10%;
+}
+
+.join__text {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.join__title {
+  font-size: 32px;
+  font-weight: 900;
+  color: #37517e;
+  margin-bottom: 25px;
+}
+
+.join__description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 25px;
+}
+
+.join__form {
+  margin-top: 30px;
+  background: #fff;
+  padding: 6px 10px;
+  position: relative;
+  border-radius: 50px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.06);
+  text-align: left;
+}
+
+.form__email {
+  border: 0;
+  padding: 4px 8px;
+  width: calc(100% - 100px);
+}
+
+.form__submit-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border: 0;
+  background: none;
+  font-size: 16px;
+  padding: 0 20px;
+  background: #47b2e4;
+  color: #fff;
+  transition: 0.3s;
+  border-radius: 50px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.links {
+  padding: 60px 10%;
+  display: flex;
+}
+
+.links__column {
+  flex-basis: 25%;
+  padding: 15px;
+}
+
+.links__title {
+  font-size: 28px;
+  margin: 0 0 10px 0;
+  padding: 2px 0 2px 0;
+  line-height: 1;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #37517e;
+}
+
+.links__title.title--sm {
+  font-size: 16px;
+}
+
+.links__column p {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 0;
+  font-family: "Jost", sans-serif;
+  color: #5e5e5e;
+  margin-bottom: 8px;
+}
+
+.links__item i {
+  padding-right: 2px;
+  color: #47b2e4;
+  font-size: 18px;
+  line-height: 1;
+}
+
+.links__item {
+  margin-bottom: 8px;
+}
+
+.links__item a {
+  color: #777777;
+  line-height: 1;
+  font-size: 14px;
+}
+
+.social-links__item {
+  font-size: 18px;
+  display: inline-block;
+  background: #47b2e4;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  margin-bottom: 4px;
+}
+
+.copyright {
+  background-color: #37517e;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #fff;
+}
+
+.copyright__contents-wrap {
+  display: flex;
+  justify-content: space-around;
+}
+
+.copyright__contents-wrap .left-contents-bold {
+  font-weight: 700;
+}
+
+.copyright__contents-wrap .copyright__right a {
+  color: #47b2e4;
+}

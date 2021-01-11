@@ -1,0 +1,61 @@
+@import "reset.css";
+@import "header.css";
+@import "home.css";
+@import "services.css";
+@import "portfolio.css";
+@import "footer.css";
+@import "faq.css";
+@import "about.css";
+@import "nav.css";
+@import "contact.css";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+main {
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (max-width: 1333px) {
+  .service {
+    flex-basis: 33.33%;
+  }
+}
+@media (max-width: 1073px) {
+  .service {
+    flex-basis: 33.33%;
+  }
+}
+@media (max-width: 815px) {
+  .service {
+    flex-basis: 50%;
+  }
+}
+@media (max-width: 555px) {
+  .service {
+    flex-basis: 100%;
+  }
+}
+
+@media (max-width: 815px) {
+  .portfolio__item {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+@media (max-width: 555px) {
+  .portfolio__item {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}

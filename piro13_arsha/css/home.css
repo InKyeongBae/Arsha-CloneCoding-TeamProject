@@ -1,0 +1,51 @@
+.home {
+  background-color: #37517e;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: space-around;
+  color: white;
+  padding: 60px 10%;
+  padding-top: 20%;
+}
+
+.home__column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.home .home__title {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.home .home__description {
+  font-size: 24px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 50px;
+}
+
+.home__buttons .btn {
+  color: rgba(255, 255, 255);
+  margin-bottom: 10px;
+}
+
+.btn__get-started {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  padding: 10px 28px 11px 28px;
+  margin-top: 10px;
+  border-radius: 50px;
+  background: #47b2e4;
+}
+
+.btn__watch-video {
+  font-size: 16px;
+  font-weight: 400;
+  display: inline-block;
+  padding: 10px 0 8px 20px;
+  margin: 10px 0 0 0;
+}
